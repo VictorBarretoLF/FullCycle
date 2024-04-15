@@ -8,7 +8,7 @@ import java.util.Set;
 
 public interface CategoryGateway {
 
-    Category save(Category aCategory);
+    Category create(Category aCategory);
 
     void deleteById(String anId);
 
